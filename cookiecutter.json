@@ -1,6 +1,6 @@
 {
   "project_name": "TheChip Django Project",
-  "project_slug": "{{ cookiecutter.project_name.lower()|replace(' ', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
+  "project_slug": "{{ cookiecutter.project_name.lower()|replace('_', '_')|replace('-', '_')|replace('.', '_')|trim() }}",
   "description": "Behold TheChip's Awesome Django Project!",
   "author_name": "TheChip"
 }
